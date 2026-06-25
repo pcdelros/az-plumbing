@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const button=document.querySelector('[data-menu-button]');const links=document.querySelector('[data-nav-links]');if(button&&links){button.addEventListener('click',()=>links.classList.toggle('open'));}});
